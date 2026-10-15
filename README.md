@@ -86,3 +86,23 @@ Analysis of 7,043 telecommunications customers revealed:
 ## 👤 Author
 
 Created as a data analytics portfolio project to demonstrate Python-based exploratory data analysis, data cleaning, visualization, and business insight generation.
+
+
+## 📌 Project Status
+
+**Completed:** Exploratory Data Analysis (EDA)
+
+This project demonstrates data cleaning, customer churn analysis, data visualization, and business recommendations using Python.
+
+### 📊 Visualizations
+- Customer Churn Distribution
+- Churn Rate by Contract Type
+- Churn Rate by Internet Service
+- Churn Rate by Payment Method
+
+### 🔮 Future Improvements
+- Build an interactive Power BI dashboard.
+- Develop a machine learning model to predict customer churn.
+- Explore customer retention strategies using deeper analysis.
+
+
