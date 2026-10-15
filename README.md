@@ -45,6 +45,9 @@ Analysis of 7,043 telecommunications customers revealed:
 ### Customer Churn Rate by Contract Type
 
 ![Customer Churn Rate by Contract Type](contract_churn.png)
+### Customer Churn Distribution
+
+![Customer Churn Distribution](churn_distribution.png)
 
 ## 💡 Business Recommendations
 
