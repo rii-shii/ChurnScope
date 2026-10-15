@@ -39,6 +39,12 @@ Analysis of 7,043 telecommunications customers revealed:
 - **41.89% churn rate** among fiber-optic internet customers.
 - **45.29% churn rate** among electronic-check users.
 - Customers who churned had a median tenure of **10 months**, compared with **38 months** for retained customers.
+  
+  ## 📊 Visual Analysis
+
+### Customer Churn Rate by Contract Type
+
+![Customer Churn Rate by Contract Type](contract_churn.png)
 
 ## 💡 Business Recommendations
 
