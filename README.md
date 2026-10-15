@@ -54,6 +54,10 @@ Analysis of 7,043 telecommunications customers revealed:
 
 ![Churn Rate by Internet Service](internet_service_churn.png)
 
+### Churn Rate by Payment Method
+
+![Churn Rate by Payment Method](payment_method_churn.png)
+
 ## 💡 Business Recommendations
 
 1. Encourage month-to-month customers to explore longer-term plans.
