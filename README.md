@@ -1,126 +1,70 @@
-# ChurnScope — Customer Churn & Retention Analysis
+# ChurnScope 📊
+### Customer Churn & Retention Analysis
 
-![Python](https://img.shields.io/badge/Python-3.14-blue)
-![Pandas](https://img.shields.io/badge/Library-Pandas-150458)
-![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
-
-## 📌 Project Overview
-
-**ChurnScope** is a data analytics project that explores customer churn patterns and identifies factors associated with customer cancellations.
-
-Using Python and data visualization, this project analyzes customer demographics, contract types, tenure, monthly charges, internet services, payment methods, and support services to uncover useful business insights.
+**ChurnScope** is a Python-based data analytics project that explores customer churn patterns in a telecommunications dataset. The goal is to identify customer groups with higher churn rates and turn the findings into actionable retention strategies.
 
 ## 🎯 Project Objectives
 
-- Analyze the overall customer churn rate.
-- Identify customer segments with higher churn rates.
-- Explore relationships between customer tenure and churn.
-- Compare churn across contract types and payment methods.
-- Visualize findings and develop data-driven business recommendations.
-
-## 📊 Dataset Overview
-
-- **Total customers:** 7,043
-- **Total features:** 21
-- **Churned customers:** 1,869
-- **Retained customers:** 5,174
-- **Overall churn rate:** 26.54%
-
-The project uses a Telco Customer Churn dataset containing customer information, service subscriptions, billing details, and churn status.
+- Analyze customer churn and retention rates.
+- Identify patterns across contract types, internet services, and payment methods.
+- Explore how customer tenure and monthly charges relate to churn.
+- Develop data-driven recommendations for customer retention.
 
 ## 🛠️ Tools & Technologies
 
 - **Python** — data analysis
-- **Pandas** — data cleaning and manipulation
-- **NumPy** — numerical operations
-- **Matplotlib** — data visualization
-- **Seaborn** — statistical visualizations
-- **Jupyter Notebook** — exploratory analysis
-- **Visual Studio Code** — development environment
+- **Pandas & NumPy** — data manipulation
+- **Matplotlib & Seaborn** — data visualization
+- **Jupyter Notebook** — exploratory data analysis
 
-## 🔍 Key Findings
+## 📂 Project Structure
 
-### 1. Contract Type
+```text
+ChurnScope/
+├── notebooks/
+│   └── 01_exploration.ipynb
+├── README.md
+├── PROJECT_FINDINGS.md
+├── requirements.txt
+└── .gitignore
+```
 
-Month-to-month customers had a churn rate of **42.71%**, compared with 11.27% for one-year contracts and 2.83% for two-year contracts.
+## 📈 Key Findings
 
-### 2. Customer Tenure
+Analysis of 7,043 telecommunications customers revealed:
 
-Customers who churned had a median tenure of approximately **10 months**, compared with approximately 38 months for customers who stayed.
-
-### 3. Monthly Charges
-
-Customers who churned had average monthly charges of approximately **74.44**, compared with 61.27 for retained customers.
-
-### 4. Internet Service
-
-Fiber-optic customers had a churn rate of **41.89%**, higher than the 18.96% observed among DSL customers.
-
-### 5. Payment Method
-
-Electronic-check customers had the highest observed churn rate at **45.29%**.
-
-### 6. Support Services
-
-Customers without online security or technical support had substantially higher observed churn rates than customers with these services.
-
-## 📈 Visualizations
-
-The analysis includes:
-
-- Overall churn distribution
-- Churn rate by contract type
-- Churn rate by internet service
-- Churn rate by payment method
-- Customer tenure comparison by churn status
-- Customer segmentation by demographic and service characteristics
+- **26.54% overall churn rate** across the dataset.
+- **42.71% churn rate** among month-to-month contract customers.
+- **2.83% churn rate** among two-year contract customers.
+- **41.89% churn rate** among fiber-optic internet customers.
+- **45.29% churn rate** among electronic-check users.
+- Customers who churned had a median tenure of **10 months**, compared with **38 months** for retained customers.
 
 ## 💡 Business Recommendations
 
-- Investigate retention opportunities for month-to-month customers.
-- Focus on improving the early customer experience.
-- Review pricing and perceived value among customers with higher monthly charges.
-- Investigate service satisfaction among fiber-optic customers.
-- Explore billing experiences among electronic-check users.
-- Evaluate how support and security services relate to customer retention.
+1. Encourage month-to-month customers to explore longer-term plans.
+2. Investigate customer satisfaction and service issues among fiber-optic users.
+3. Review the payment experience for electronic-check users and offer convenient alternatives.
+4. Focus retention efforts on customers in their early months.
+5. Investigate whether technical support and online security offerings could improve customer retention.
 
-These recommendations are based on observed associations and should be validated before implementation.
-
-## 📁 Project Structure
-
-```text
-churnscope/
-├── data/
-│   └── raw/
-│       └── Telco-Customer-Churn.csv
-├── notebooks/
-│   └── 01_exploration.ipynb
-├── PROJECT_FINDINGS.md
-├── README.md
-└── requirements.txt
-```
-
-## ▶️ How to Run the Project
+## 🚀 How to Run
 
 1. Clone or download this repository.
-2. Install Python.
-3. Install the required libraries:
+2. Install the dependencies:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Open `notebooks/01_exploration.ipynb` in Jupyter Notebook or VS Code.
-5. Select the appropriate Python environment and run the notebook cells.
+3. Download the Telco Customer Churn dataset and place the CSV file at:
 
-Place the dataset at `data/raw/Telco-Customer-Churn.csv` before running the notebook.
+   `data/raw/Telco-Customer-Churn.csv`
 
-## 📌 Conclusion
+4. Open `notebooks/01_exploration.ipynb` in Jupyter Notebook or VS Code and run the cells.
 
-ChurnScope demonstrates how exploratory data analysis can uncover patterns associated with customer churn and support business decision-making.
-
-The project provides a foundation for future work involving interactive dashboards, customer segmentation, and machine-learning-based churn prediction.
+**Dataset note:** The raw dataset is not included in this repository.
 
 ## 👤 Author
 
-Created as a data analytics portfolio project.
+Created as a data analytics portfolio project to demonstrate Python-based exploratory data analysis, data cleaning, visualization, and business insight generation.
